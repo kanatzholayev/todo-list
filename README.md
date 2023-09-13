@@ -11,5 +11,7 @@ npm i && npm run start
 ### Использованный стек:
 
 Основа: React, Redux, Typescript
+
 Дизайн-стиль: styled-components, ant
+
 Cборщик: vite
