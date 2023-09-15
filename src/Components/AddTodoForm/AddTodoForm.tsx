@@ -14,6 +14,7 @@ export const AddTodoForm: FC = () => {
 			type: 'ADD_TODO',
 			payload: todo,
 		});
+		form.setFieldValue('name', '');
 	};
 
 	return (
