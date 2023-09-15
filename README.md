@@ -6,7 +6,7 @@
 npm i && npm run start
 ```
 
-[Демо](https://6501964488d3196dc3dcbf0a--marvelous-jalebi-7c42f3.netlify.app/)
+[Демо](https://650476811737d43801ade521--marvelous-jalebi-7c42f3.netlify.app/)
 
 ### Использованный стек:
 
