@@ -44,7 +44,7 @@ export const reducer = (state = getFromLocalStorage(), action: Action) => {
 		case ActionTypes.ClearCompleted: {
 			const newState = {
 				...state,
-				todoList: state.todoList.filter(todo => todo.completed),
+				todoList: state.todoList.filter(todo => !todo.completed),
 			};
 
 			saveToLocalStorage(newState);
